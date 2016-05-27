@@ -8,5 +8,19 @@
 
 import Foundation
 
-print("Hello, World!")
+var angle1 = Int()
+
+var angle2 = Int()
+
+var angle3 = Int()
+
+
+repeat {
+    if let angle1 = readLine(stripNewline: true) {
+        if let angleAsInt = Int(angle1) {
+            
+        }
+    }
+} while angle1 == 0
+
 
